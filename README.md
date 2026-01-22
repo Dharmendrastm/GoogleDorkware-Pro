@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 # 🚀 Google Dorkware Pro — Advanced OSINT & Recon Tool
 
 Google Dorkware Pro is an advanced, browser-based OSINT and reconnaissance automation platform built for penetration testers, bug bounty hunters, and cybersecurity learners.
@@ -140,13 +140,11 @@ The developer is not responsible for any misuse of this tool.
 
 ## 👨‍💻 Developer
 
-Dharmendra Singh  
+Dharmendra Kumar  
 Penetration Tester | Security Researcher
 
-Portfolio: https://dharmendrastm.github.io/PortfolioWebsite/  
-GitHub: https://github.com/Dharmendrastm  
 LinkedIn: https://www.linkedin.com/in/dharmendrastm/  
-Medium: https://dharmendrastm.medium.com/
+
 
 Aliases:
 dharmendrastm | dharmendrahacker | dharmendracyberhack
