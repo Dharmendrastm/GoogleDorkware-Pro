@@ -1,98 +1,186 @@
-Project Description
+cat << 'EOF' > README.md
+# 🚀 Google Dorkware Pro — Advanced OSINT & Recon Tool
 
-Google Dorkware Pro is an advanced, browser-based OSINT and reconnaissance automation platform developed for penetration testers, bug bounty hunters, and cybersecurity learners.
-The tool streamlines the reconnaissance phase of web application security testing by automating Google Dork queries and OWASP Top-25 parameter discovery, helping security researchers quickly identify hidden endpoints, exposed files, vulnerable input parameters, and common misconfigurations.
+Google Dorkware Pro is an advanced, browser-based OSINT and reconnaissance automation platform built for penetration testers, bug bounty hunters, and cybersecurity learners.
+It helps in discovering hidden endpoints, exposed files, vulnerable parameters, and security misconfigurations using advanced Google Dorking techniques and OWASP Top-25 parameter patterns.
 
-Instead of manually crafting and testing hundreds of Google search queries, users can simply enter a target domain and execute pre-built, vulnerability-focused recon modules with a single click.
-This significantly reduces recon time and allows researchers to focus more on manual testing, exploitation, and business logic analysis.
+🌐 Live Demo:
+https://dharmendrastm.github.io/GoogleDorkware/
 
-The tool is fully client-side and does not perform any scanning or exploitation itself — it only assists in ethical information gathering and attack surface discovery.
+---
 
-🧰 Technology Used
+## 📌 Project Description
 
-Google Dorkware Pro is developed using lightweight and efficient web technologies to ensure high performance, easy deployment, and maximum accessibility.
+Reconnaissance is the most critical phase of penetration testing and bug bounty hunting.
+Google Dorkware Pro simplifies and accelerates this phase by automating:
 
-🌐 Frontend Technologies
+- Google Dork discovery
+- Parameter hunting
+- Vulnerability-focused endpoint enumeration
 
-HTML5 — Used for semantic page structure and accessibility-friendly layout.
+Instead of manually writing hundreds of Google search queries, users can simply enter a target domain and execute pre-built recon modules with one click.
+This allows security researchers to spend more time on manual testing, exploitation, and business logic analysis.
 
-CSS3 — Responsible for the cyber-themed UI design, animations, gradients, responsive layouts, and interactive effects.
+⚠️ This tool performs reconnaissance only and does not exploit vulnerabilities.
 
-JavaScript (Vanilla JS) — Handles all application logic such as dynamic card generation, event handling, Google query construction, and automated execution of search queries.
+---
 
-🎨 UI & UX Enhancements
+## ✨ Features
 
-Google Fonts (Orbitron & JetBrains Mono) — Provides professional hacker-style typography.
+### 🔍 Advanced Google Dork Engine
+- 250+ curated Google Dorks
+- 24+ vulnerability categories:
+  - Admin & Login Panels
+  - SQL Injection
+  - Cross-Site Scripting (XSS)
+  - Local File Inclusion (LFI)
+  - Server-Side Request Forgery (SSRF)
+  - Open Redirect
+  - Exposed Databases
+  - Backup & Config Files
+  - API Endpoints
+  - Cloud Storage Buckets
+  - Git Repositories
+  - Directory Listings
+  - WordPress Security and more
 
-Font Awesome Icons — Used for icons in navigation, vulnerability categories, and action buttons.
+### 🛡 OWASP Top-25 Parameter Scanner
+- 150+ high-risk URL parameters
+- Covers:
+  - SSRF
+  - LFI
+  - SQL Injection
+  - Open Redirect
+  - XSS
+  - Remote Code Execution (RCE)
+- One-click Google query generation
 
-HTML5 Canvas API — Used to implement the animated Matrix-style background effect for cyber aesthetics.
+### ⚡ Professional Recon Workflow
+- Severity-based categorization (Low / Medium / High / Critical)
+- Automated Google search execution
+- Bug bounty optimized methodology
+- Cyber-themed professional UI
 
-🔍 Security & OSINT Concepts Implemented
+### 🌐 Fully Client-Side
+- No backend required
+- No user data collection
+- Works directly in browser
+- Easy deployment using GitHub Pages
 
-Google Search Operators (Google Dorks)
-Including: site:, inurl:, intitle:, filetype:, and keyword-based operators for detecting exposed resources.
+---
 
-OWASP Testing Guide Parameter Patterns
-Vulnerability-focused parameters for identifying potential:
+## 🧠 How It Works
 
-SQL Injection
+1. Enter your authorized target domain  
+   Example:
+   testphp.vulnweb.com
 
-Cross-Site Scripting (XSS)
+2. Select any Google Dork category or OWASP scanner module
 
-Local File Inclusion (LFI)
+3. The tool automatically opens optimized Google searches like:
+   site:example.com inurl:login
+   site:example.com inurl:id=
+   site:example.com filetype:env
 
-Server-Side Request Forgery (SSRF)
+4. Perform manual testing using:
+   - Burp Suite
+   - Browser Developer Tools
+   - Manual payload injection
+   - Business logic testing
 
-Open Redirect
+---
 
-Remote Code Execution (RCE)
+## 🧰 Technology Used
 
-🚀 Deployment
+### 🌐 Frontend
+- HTML5 — Semantic structure and accessibility-friendly markup
+- CSS3 — Cyber-themed UI design, animations, gradients, and responsive layout
+- JavaScript (Vanilla JS) — Dynamic rendering, event handling, and Google query automation
 
-GitHub Pages — Used for hosting the live demo as a static web application.
+### 🎨 UI & UX Enhancements
+- Google Fonts (Orbitron & JetBrains Mono)
+- Font Awesome Icons
+- HTML5 Canvas API (Matrix background animation)
 
-Client-Side Execution Only — No backend, APIs, or databases required.
+### 🔍 Security & OSINT Concepts
+- Google Search Operators:
+  site:, inurl:, intitle:, filetype:
+- OWASP Testing Guide parameter patterns for:
+  SQLi, XSS, LFI, SSRF, Open Redirect, RCE
 
-🎯 Project Purpose
+### 🚀 Deployment
+- GitHub Pages
+- Client-side only architecture (no backend)
 
-The main objective of Google Dorkware Pro is to accelerate the reconnaissance phase of penetration testing and bug bounty hunting by providing:
+---
 
-Faster discovery of hidden URLs and parameters
+## 🎯 Project Purpose
 
-Easy identification of potential vulnerable endpoints
+The primary goal of Google Dorkware Pro is to accelerate reconnaissance during web security testing by providing:
 
-Structured recon methodology based on vulnerability categories
+- Faster discovery of hidden URLs and parameters
+- Structured vulnerability-based recon workflow
+- Reduced manual searching effort
+- Learning support for cybersecurity students
 
-Learning support for beginners in web security and OSINT
+This tool bridges the gap between OSINT techniques and real-world pentesting methodology.
 
-In real-world pentesting, reconnaissance consumes a large portion of assessment time.
-This tool helps reduce repetitive manual searching and enables testers to move quickly toward:
+---
 
-Manual vulnerability verification
+## ⚠️ Legal Disclaimer
 
-Payload testing using Burp Suite
+This tool is intended only for educational purposes and authorized security testing.
 
-Business logic and authorization testing
+Do NOT use this tool on websites without proper written permission.
+Unauthorized testing is illegal and punishable by law.
 
-Additionally, the project serves as a practical cybersecurity learning tool for students to understand how attackers and testers use Google search operators to discover exposed information on the internet.
+The developer is not responsible for any misuse of this tool.
 
-✅ Conclusion
+---
 
-Google Dorkware Pro demonstrates how OSINT techniques and Google Dorking can be effectively automated to improve security testing workflows.
-By combining curated dork databases, OWASP-aligned parameter scanning, and a professional user interface, the tool provides a structured approach to reconnaissance without violating ethical boundaries.
+## 👨‍💻 Developer
 
-This project reflects real-world penetration testing methodology and encourages users to practice responsible security research by testing only authorized targets.
-With future enhancements such as Wayback integration, subdomain discovery, and result exporting, Google Dorkware Pro can evolve into a complete recon dashboard for modern web security testing.
+Dharmendra Singh  
+Penetration Tester | Security Researcher
 
-Overall, the project highlights strong skills in:
+Portfolio: https://dharmendrastm.github.io/PortfolioWebsite/  
+GitHub: https://github.com/Dharmendrastm  
+LinkedIn: https://www.linkedin.com/in/dharmendrastm/  
+Medium: https://dharmendrastm.medium.com/
 
-Web development
+Aliases:
+dharmendrastm | dharmendrahacker | dharmendracyberhack
 
-Security research methodology
+---
 
-OSINT automation
+## ⭐ Support & Contribution
 
-Ethical hacking practices
+If you find this project useful:
 
-and serves as a valuable portfolio project for careers in penetration testing and bug bounty hunting. 🛡️💻
+- Star the repository
+- Fork and improve it
+- Report bugs
+- Suggest new dorks and parameters
+
+Contributions are always welcome.
+
+---
+
+## 🛣 Roadmap
+
+- [ ] Wayback URL integration
+- [ ] Subdomain enumeration
+- [ ] Parameter brute-force module
+- [ ] Result export feature
+- [ ] Recon notes and reporting system
+
+---
+
+## ✅ Conclusion
+
+Google Dorkware Pro demonstrates how OSINT and Google Dorking can be effectively automated to improve reconnaissance workflows.
+It reflects real-world penetration testing practices and serves as a strong portfolio project for careers in cybersecurity.
+
+Use it responsibly and help make the internet safer.
+
+EOF
