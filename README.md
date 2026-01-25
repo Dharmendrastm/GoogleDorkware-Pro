@@ -5,7 +5,7 @@ Google Dorkware Pro is an advanced, browser-based OSINT and reconnaissance autom
 It helps in discovering hidden endpoints, exposed files, vulnerable parameters, and security misconfigurations using advanced Google Dorking techniques and OWASP Top-25 parameter patterns.
 
 🌐 Live Demo:
-https://dharmendrastm.github.io/GoogleDorkware-Pro/
+https://dharmendrastm.github.io/GoogleDork/
 
 ---
 
