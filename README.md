@@ -1,5 +1,5 @@
 
-# 🚀 Google Dorkware Pro — Advanced OSINT & Recon Tool
+# 🚀 Google Dork — Advanced OSINT & Recon Tool
 
 Google Dorkware Pro is an advanced, browser-based OSINT and reconnaissance automation platform built for penetration testers, bug bounty hunters, and cybersecurity learners.
 It helps in discovering hidden endpoints, exposed files, vulnerable parameters, and security misconfigurations using advanced Google Dorking techniques and OWASP Top-25 parameter patterns.
