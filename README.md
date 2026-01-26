@@ -1,7 +1,7 @@
 
-# 🚀 Google Dork — Advanced OSINT & Recon Tool
+# 🚀 SurfaceHunter — Advanced OSINT & Recon Tool
 
-Google Dorkware Pro is an advanced, browser-based OSINT and reconnaissance automation platform built for penetration testers, bug bounty hunters, and cybersecurity learners.
+SurfaceHunter Pro is an advanced, browser-based OSINT and reconnaissance automation platform built for penetration testers, bug bounty hunters, and cybersecurity learners.
 It helps in discovering hidden endpoints, exposed files, vulnerable parameters, and security misconfigurations using advanced Google Dorking techniques and OWASP Top-25 parameter patterns.
 
 🌐 Live Demo:
@@ -12,7 +12,7 @@ https://dharmendrastm.github.io/GoogleDork/
 ## 📌 Project Description
 
 Reconnaissance is the most critical phase of penetration testing and bug bounty hunting.
-Google Dorkware Pro simplifies and accelerates this phase by automating:
+SurfaceHunter Pro simplifies and accelerates this phase by automating:
 
 - Google Dork discovery
 - Parameter hunting
@@ -176,7 +176,7 @@ Contributions are always welcome.
 
 ## ✅ Conclusion
 
-Google Dorkware Pro demonstrates how OSINT and Google Dorking can be effectively automated to improve reconnaissance workflows.
+SurfaceHunter Pro demonstrates how OSINT and Google Dorking can be effectively automated to improve reconnaissance workflows.
 It reflects real-world penetration testing practices and serves as a strong portfolio project for careers in cybersecurity.
 
 Use it responsibly and help make the internet safer.
